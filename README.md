@@ -1,1 +1,1 @@
-# jsminiquiz
+# js-mini-quiz
