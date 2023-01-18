@@ -1,0 +1,46 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+    <div id="title">
+        <h1>JavaScript Mini Quiz</h1>
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+    </div>
+    <div id="start-button">
+        <button onclick="startQuiz(); hideTitle()">Start Quiz</button>
+    </div>
+    
+    <div id="quiz" style="display: none;">
+        <p id="titletimer">Timer: <span id="timer"></span></p>
+        <p id="question"></p>
+        <button id="choice0" onclick="checkanswer(0)"></button>
+        <button id="choice1" onclick="checkanswer(1)"></button>
+        <button id="choice2" onclick="checkanswer(2)"></button>
+        <button id="choice3" onclick="checkanswer(3)"></button>
+    </div>
+    
+    <div class= "result-message" id="result-message"></div>
+
+    <div id="end-screen" style="display: none;">
+        <p>Your final score is <span id="final-score"></span></p>
+        <form>
+            <label for="initials">Enter your initials:</label>
+            <input type="text" id="initials">
+            <button onclick="saveScore()">Save Score</button>
+        </form>
+        <div>
+            <ol id="high-scores"></ol>
+        </div>
+        <button id="clear-scores">Clear Scores</button>
+    </div>
+    
+</body>
+<script src="assets/js/script.js"></script>
+</html>

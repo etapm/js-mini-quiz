@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#start-button {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#quiz, #end-screen {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#quiz {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#quiz button {
+    display: flex;
+    margin: 10px auto;
+    width: 150px;
+    padding: 8px;
+    background-color: #F08080;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+#start-button button {
+    width: 120px;
+    padding: 8px;
+    background-color: #F08080;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+#clear-scores, .btn {
+    padding: 8px;
+    background-color: #F08080;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+.btn {
+    margin: .8px;
+}
+
+form button  {
+    padding: 8px;
+    background-color: #F08080;
+    color: white;
+    border-radius: 7px;
+    border: none;
+   
+}
+
+#question, #choice0, #choice1, #choice2, #choice3 {
+    padding-top: 220px;
+}
+
+#choice0, #choice1, #choice2, #choice3{
+    font-size: 11.8px;
+}
+
+#title {
+    text-align: center;
+    padding-top: 340px;
+    display: block;
+}
+
+#question {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#titletimer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bolder;
+}
+
+#timer{
+    font-weight: lighter;
+}
+
+#high-score-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#high-score-link a {
+    color: lightcoral;
+}
+
+.result-message {
+    font-size: 1em;
+    color: gray;
+    text-align: center;
+}
+
+#end-screen {
+    padding-top: 280px;
+}
+
+/* Default styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for screens larger than 768px */
+@media only screen and (min-width: 768px) {
+    #quiz, #end-screen {
+        width: 50%;
+    }
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    #quiz, #end-screen {
+        width: 100%;
+    }
+}
