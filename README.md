@@ -9,7 +9,7 @@ The motivation behind this project was to enhance my coding skills by building a
 * [License](#license)
 
 ## Installation
-Review the code on the GitHub repository. The deployed site can be accessed at [GitHub Pages](https://etapm.github.io/password-generator-03/) or by visiting the [GitHub Repository](https://github.com/etapm/password-generator-03).
+Review the code on the GitHub repository. The deployed site can be accessed at [GitHub Pages](https://etapm.github.io/js-mini-quiz/) or by visiting the [GitHub Repository](https://github.com/etapm/js-mini-quiz).
 ## Usage
 Upon initiating the quiz by pressing the "start quiz" button, the user will be presented with 10 basic Javascript questions, each with 4 options to choose from, within a 75-second time frame. Incorrect answers will result in a penalty of 10 seconds to the user's score. Upon completion of the quiz or expiration of the time limit, the user will be prompted to enter their initials and save their scores, clear the scores, or return to the home page for another round.
 
