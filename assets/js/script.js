@@ -212,7 +212,7 @@ let goBackButton = document.createElement("button");
 goBackButton.innerHTML = "Go Back";
 goBackButton.setAttribute("class", "btn btn-primary");
 goBackButton.addEventListener("click", function(){
-    window.location.href = 'https://etapm.github.io/js-mini-quiz/';
+    window.location.href = 'https://etapm.github.io/js-mini-quiz';
 });
 
 let clearButton = document.getElementById("clear-scores");
